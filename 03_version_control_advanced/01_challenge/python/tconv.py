@@ -11,3 +11,10 @@ def convert_fahrenheit_to_celsius():
     fahrenheit = int(fahrenheit)
     celsius = 5/9*(fahrenheit-32)
     print(f"The Fahrenheit temperature {fahrenheit} you entered is {celsius} in Celsius.")
+
+def main():
+  convert_fahrenheit_to_celsius()
+  convert_celsius_to_fahrenheit()
+ 
+
+main()
